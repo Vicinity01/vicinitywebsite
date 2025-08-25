@@ -77,7 +77,7 @@ const FounderPage = () => {
               className="order-1 lg:order-2"
             >
               <img 
-                src="YOUR_NEW_IMAGE_URL_HERE" 
+                src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
                 alt="Will Smith - Founder" 
                 className="rounded-xl shadow-lg"
               />
