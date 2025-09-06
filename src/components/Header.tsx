@@ -47,8 +47,8 @@ const Header: React.FC<HeaderProps> = ({ scrolled }) => {
             >
               <Globe className="w-8 h-8 text-primary-600 mr-2" />
               <span className="text-xl font-montserrat font-bold">
-                <span className="text-primary-600">Vicinity</span>{' '}
-                <span className="text-secondary-800">Global</span>
+                <span className="text-primary-500">Vicinity</span>{' '}
+                <span className="text-primary-900">Global</span>
               </span>
             </motion.div>
           </Link>
@@ -62,8 +62,8 @@ const Header: React.FC<HeaderProps> = ({ scrolled }) => {
                 className={({ isActive }) =>
                   `text-sm font-medium transition-colors duration-300 hover:text-primary-600 ${
                     isActive
-                      ? 'text-primary-600 font-semibold'
-                      : 'text-secondary-800'
+                      ? 'text-primary-500 font-semibold'
+                      : 'text-primary-900'
                   }`
                 }
               >
@@ -83,7 +83,7 @@ const Header: React.FC<HeaderProps> = ({ scrolled }) => {
           <div className="md:hidden">
             <button
               onClick={toggleMenu}
-              className="text-secondary-800 hover:text-primary-600 transition-colors"
+              className="text-primary-900 hover:text-primary-500 transition-colors"
               aria-label="Toggle menu"
             >
               {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
@@ -110,8 +110,8 @@ const Header: React.FC<HeaderProps> = ({ scrolled }) => {
                   className={({ isActive }) =>
                     `text-sm font-medium transition-colors duration-300 px-2 py-2 rounded-md ${
                       isActive
-                        ? 'text-primary-600 bg-primary-50 font-semibold'
-                        : 'text-secondary-800 hover:bg-secondary-50'
+                        ? 'text-primary-500 bg-primary-50 font-semibold'
+                        : 'text-primary-900 hover:bg-secondary-50'
                     }`
                   }
                   onClick={() => setIsMenuOpen(false)}

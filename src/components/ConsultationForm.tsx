@@ -76,7 +76,7 @@ const ConsultationForm = () => {
           className="text-center py-8"
         >
           <div className="flex justify-center mb-6">
-            <CheckCircle className="w-16 h-16 text-accent-600" />
+            <CheckCircle className="w-16 h-16 text-primary-500" />
           </div>
           <h3 className="text-2xl font-semibold mb-4">Thank You!</h3>
           <p className="text-secondary-600 mb-6">
@@ -180,7 +180,7 @@ const ConsultationForm = () => {
                     type="checkbox"
                     checked={formData.isVeteran}
                     onChange={handleChange}
-                    className="w-4 h-4 text-primary-600 border-secondary-300 rounded focus:ring-primary-500"
+                    className="w-4 h-4 text-primary-500 border-secondary-300 rounded focus:ring-primary-500"
                   />
                 </div>
                 <div className="ml-3 text-sm">

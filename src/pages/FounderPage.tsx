@@ -8,7 +8,7 @@ const FounderPage = () => {
   return (
     <>
       {/* Hero Section */}
-      <section className="pt-32 pb-16 md:pt-40 md:pb-24 bg-secondary-900 text-white">
+      <section className="pt-32 pb-16 md:pt-40 md:pb-24 bg-primary-900 text-white">
         <div className="container-custom">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -299,7 +299,7 @@ const FounderPage = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-primary-600 text-white">
+      <section className="py-16 bg-primary-900 text-white">
         <div className="container-custom text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -309,14 +309,14 @@ const FounderPage = () => {
             className="max-w-3xl mx-auto"
           >
             <h2 className="text-white mb-6">Work With Will Smith and Our Expert Team</h2>
-            <p className="text-primary-100 text-lg mb-8">
+            <p className="text-secondary-200 text-lg mb-8">
               Schedule your free consultation today to discuss how our expertise can help your business leverage AI technology.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link to="/#consultation" className="btn bg-white text-primary-600 hover:bg-primary-50">
+              <Link to="/#consultation" className="btn bg-white text-primary-900 hover:bg-secondary-200">
                 Request Consultation
               </Link>
-              <Link to="/services" className="btn bg-primary-700 text-white hover:bg-primary-800 inline-flex items-center">
+              <Link to="/services" className="btn bg-primary-500 text-white hover:bg-primary-600 inline-flex items-center">
                 Explore Our Services
                 <ArrowRight className="ml-2 w-4 h-4" />
               </Link>
