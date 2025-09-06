@@ -38,7 +38,7 @@ const HomePage = () => {
               transition={{ duration: 0.5 }}
             >
               <h1 className="mb-6">
-                <span className="text-primary-500">Global Intelligence.</span> Local Solutions.
+                <span className="text-primary-600">AI-Powered</span> Business Solutions for the Digital Age
               </h1>
               <p className="text-lg text-secondary-600 mb-8">
                 Vicinity Global Consulting helps businesses leverage cutting-edge AI technology to streamline operations, reduce costs, and create new revenue opportunities.
@@ -56,7 +56,7 @@ const HomePage = () => {
                 </Link>
               </div>
               <div className="mt-8 py-4 px-6 bg-white/80 rounded-lg shadow-sm backdrop-blur">
-                <p className="text-primary-900 font-medium flex items-center">
+                <p className="text-accent-700 font-medium flex items-center">
                   <ShieldCheck className="w-5 h-5 mr-2" />
                   Proud to offer special discounts for veterans
                 </p>
@@ -233,7 +233,7 @@ const HomePage = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-primary-900 text-white">
+      <section className="py-20 bg-primary-700 text-white">
         <div className="container-custom">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             <motion.div
@@ -243,7 +243,7 @@ const HomePage = () => {
               transition={{ duration: 0.5 }}
             >
               <h2 className="text-white mb-6">Ready to Transform Your Business with AI?</h2>
-              <p className="text-secondary-200 text-lg mb-8">
+              <p className="text-primary-100 text-lg mb-8">
                 Schedule your free consultation today and discover how our AI solutions can help your business reduce costs, improve efficiency, and create new revenue opportunities.
               </p>
               <ul className="space-y-3 mb-8">
@@ -253,7 +253,7 @@ const HomePage = () => {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                     </svg>
                   </div>
-                  <span className="text-secondary-200">Personalized AI strategy tailored to your business</span>
+                  <span className="text-primary-100">Personalized AI strategy tailored to your business</span>
                 </li>
                 <li className="flex items-start">
                   <div className="flex-shrink-0 w-6 h-6 rounded-full bg-primary-500 flex items-center justify-center mr-3 mt-0.5">
@@ -261,7 +261,7 @@ const HomePage = () => {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                     </svg>
                   </div>
-                  <span className="text-secondary-200">Transparent pricing with no hidden fees</span>
+                  <span className="text-primary-100">Transparent pricing with no hidden fees</span>
                 </li>
                 <li className="flex items-start">
                   <div className="flex-shrink-0 w-6 h-6 rounded-full bg-primary-500 flex items-center justify-center mr-3 mt-0.5">
@@ -269,7 +269,7 @@ const HomePage = () => {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                     </svg>
                   </div>
-                  <span className="text-secondary-200">Special discounts for veteran-owned businesses</span>
+                  <span className="text-primary-100">Special discounts for veteran-owned businesses</span>
                 </li>
               </ul>
             </motion.div>

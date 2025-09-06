@@ -35,7 +35,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
         <p className="text-secondary-600 mb-4">{description}</p>
         <Link
           to={`/services#${id}`}
-          className="inline-flex items-center text-primary-500 font-medium group-hover:text-primary-600"
+          className="inline-flex items-center text-primary-600 font-medium group-hover:text-primary-700"
         >
           Learn more
           <ArrowRight className="ml-2 w-4 h-4 transition-transform group-hover:translate-x-1" />

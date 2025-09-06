@@ -26,7 +26,7 @@ const ServicesPage = () => {
   return (
     <>
       {/* Hero Section */}
-      <section className="pt-32 pb-16 md:pt-40 md:pb-24 bg-primary-900 text-white">
+      <section className="pt-32 pb-16 md:pt-40 md:pb-24 bg-secondary-900 text-white">
         <div className="container-custom">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -68,19 +68,19 @@ const ServicesPage = () => {
                   <h3 className="text-lg font-semibold mb-2">Key Features</h3>
                   <ul className="space-y-2">
                     <li className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-primary-500 mr-2 flex-shrink-0 mt-0.5" />
+                      <CheckCircle className="w-5 h-5 text-accent-500 mr-2 flex-shrink-0 mt-0.5" />
                       <span>Natural Language Understanding</span>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-primary-500 mr-2 flex-shrink-0 mt-0.5" />
+                      <CheckCircle className="w-5 h-5 text-accent-500 mr-2 flex-shrink-0 mt-0.5" />
                       <span>Context-Aware Responses</span>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-primary-500 mr-2 flex-shrink-0 mt-0.5" />
+                      <CheckCircle className="w-5 h-5 text-accent-500 mr-2 flex-shrink-0 mt-0.5" />
                       <span>Multi-Channel Integration</span>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-primary-500 mr-2 flex-shrink-0 mt-0.5" />
+                      <CheckCircle className="w-5 h-5 text-accent-500 mr-2 flex-shrink-0 mt-0.5" />
                       <span>Real-Time Analytics</span>
                     </li>
                   </ul>
@@ -90,23 +90,23 @@ const ServicesPage = () => {
                   <h3 className="text-lg font-semibold mb-2">Business Benefits</h3>
                   <ul className="space-y-2">
                     <li className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-accent-500 mr-2 flex-shrink-0 mt-0.5" />
+                      <CheckCircle className="w-5 h-5 text-primary-500 mr-2 flex-shrink-0 mt-0.5" />
                       <span>24/7 Customer Support</span>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-accent-500 mr-2 flex-shrink-0 mt-0.5" />
+                      <CheckCircle className="w-5 h-5 text-primary-500 mr-2 flex-shrink-0 mt-0.5" />
                       <span>Reduced Support Costs</span>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-accent-500 mr-2 flex-shrink-0 mt-0.5" />
+                      <CheckCircle className="w-5 h-5 text-primary-500 mr-2 flex-shrink-0 mt-0.5" />
                       <span>Increased Customer Satisfaction</span>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-accent-500 mr-2 flex-shrink-0 mt-0.5" />
+                      <CheckCircle className="w-5 h-5 text-primary-500 mr-2 flex-shrink-0 mt-0.5" />
                       <span>Faster Response Times</span>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-accent-500 mr-2 flex-shrink-0 mt-0.5" />
+                      <CheckCircle className="w-5 h-5 text-primary-500 mr-2 flex-shrink-0 mt-0.5" />
                       <span>Scalable Support Operations</span>
                     </li>
                   </ul>
@@ -177,19 +177,19 @@ const ServicesPage = () => {
                   <h3 className="text-lg font-semibold mb-2">Key Features</h3>
                   <ul className="space-y-2">
                     <li className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-primary-500 mr-2 flex-shrink-0 mt-0.5" />
+                      <CheckCircle className="w-5 h-5 text-accent-500 mr-2 flex-shrink-0 mt-0.5" />
                       <span>Advanced Speech Recognition</span>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-primary-500 mr-2 flex-shrink-0 mt-0.5" />
+                      <CheckCircle className="w-5 h-5 text-accent-500 mr-2 flex-shrink-0 mt-0.5" />
                       <span>Natural Voice Synthesis</span>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-primary-500 mr-2 flex-shrink-0 mt-0.5" />
+                      <CheckCircle className="w-5 h-5 text-accent-500 mr-2 flex-shrink-0 mt-0.5" />
                       <span>Multi-Language Support</span>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-primary-500 mr-2 flex-shrink-0 mt-0.5" />
+                      <CheckCircle className="w-5 h-5 text-accent-500 mr-2 flex-shrink-0 mt-0.5" />
                       <span>Voice Authentication</span>
                     </li>
                   </ul>
@@ -199,23 +199,23 @@ const ServicesPage = () => {
                   <h3 className="text-lg font-semibold mb-2">Business Benefits</h3>
                   <ul className="space-y-2">
                     <li className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-accent-500 mr-2 flex-shrink-0 mt-0.5" />
+                      <CheckCircle className="w-5 h-5 text-primary-500 mr-2 flex-shrink-0 mt-0.5" />
                       <span>Enhanced Accessibility</span>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-accent-500 mr-2 flex-shrink-0 mt-0.5" />
+                      <CheckCircle className="w-5 h-5 text-primary-500 mr-2 flex-shrink-0 mt-0.5" />
                       <span>Improved Call Resolution</span>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-accent-500 mr-2 flex-shrink-0 mt-0.5" />
+                      <CheckCircle className="w-5 h-5 text-primary-500 mr-2 flex-shrink-0 mt-0.5" />
                       <span>Reduced Wait Times</span>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-accent-500 mr-2 flex-shrink-0 mt-0.5" />
+                      <CheckCircle className="w-5 h-5 text-primary-500 mr-2 flex-shrink-0 mt-0.5" />
                       <span>Consistent Service Quality</span>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-accent-500 mr-2 flex-shrink-0 mt-0.5" />
+                      <CheckCircle className="w-5 h-5 text-primary-500 mr-2 flex-shrink-0 mt-0.5" />
                       <span>Global Market Reach</span>
                     </li>
                   </ul>
@@ -260,19 +260,19 @@ const ServicesPage = () => {
                   <h3 className="text-lg font-semibold mb-2">Key Features</h3>
                   <ul className="space-y-2">
                     <li className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-primary-500 mr-2 flex-shrink-0 mt-0.5" />
+                      <CheckCircle className="w-5 h-5 text-accent-500 mr-2 flex-shrink-0 mt-0.5" />
                       <span>Task Automation</span>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-primary-500 mr-2 flex-shrink-0 mt-0.5" />
+                      <CheckCircle className="w-5 h-5 text-accent-500 mr-2 flex-shrink-0 mt-0.5" />
                       <span>Smart Scheduling</span>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-primary-500 mr-2 flex-shrink-0 mt-0.5" />
+                      <CheckCircle className="w-5 h-5 text-accent-500 mr-2 flex-shrink-0 mt-0.5" />
                       <span>Document Management</span>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-primary-500 mr-2 flex-shrink-0 mt-0.5" />
+                      <CheckCircle className="w-5 h-5 text-accent-500 mr-2 flex-shrink-0 mt-0.5" />
                       <span>Intelligent Reminders</span>
                     </li>
                   </ul>
@@ -282,23 +282,23 @@ const ServicesPage = () => {
                   <h3 className="text-lg font-semibold mb-2">Business Benefits</h3>
                   <ul className="space-y-2">
                     <li className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-accent-500 mr-2 flex-shrink-0 mt-0.5" />
+                      <CheckCircle className="w-5 h-5 text-primary-500 mr-2 flex-shrink-0 mt-0.5" />
                       <span>Increased Productivity</span>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-accent-500 mr-2 flex-shrink-0 mt-0.5" />
+                      <CheckCircle className="w-5 h-5 text-primary-500 mr-2 flex-shrink-0 mt-0.5" />
                       <span>Better Time Management</span>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-accent-500 mr-2 flex-shrink-0 mt-0.5" />
+                      <CheckCircle className="w-5 h-5 text-primary-500 mr-2 flex-shrink-0 mt-0.5" />
                       <span>Reduced Human Error</span>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-accent-500 mr-2 flex-shrink-0 mt-0.5" />
+                      <CheckCircle className="w-5 h-5 text-primary-500 mr-2 flex-shrink-0 mt-0.5" />
                       <span>Enhanced Organization</span>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-accent-500 mr-2 flex-shrink-0 mt-0.5" />
+                      <CheckCircle className="w-5 h-5 text-primary-500 mr-2 flex-shrink-0 mt-0.5" />
                       <span>Streamlined Workflows</span>
                     </li>
                   </ul>
@@ -369,19 +369,19 @@ const ServicesPage = () => {
                   <h3 className="text-lg font-semibold mb-2">Key Features</h3>
                   <ul className="space-y-2">
                     <li className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-primary-500 mr-2 flex-shrink-0 mt-0.5" />
+                      <CheckCircle className="w-5 h-5 text-accent-500 mr-2 flex-shrink-0 mt-0.5" />
                       <span>Process Mapping</span>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-primary-500 mr-2 flex-shrink-0 mt-0.5" />
+                      <CheckCircle className="w-5 h-5 text-accent-500 mr-2 flex-shrink-0 mt-0.5" />
                       <span>Data Integration</span>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-primary-500 mr-2 flex-shrink-0 mt-0.5" />
+                      <CheckCircle className="w-5 h-5 text-accent-500 mr-2 flex-shrink-0 mt-0.5" />
                       <span>Automated Decisions</span>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-primary-500 mr-2 flex-shrink-0 mt-0.5" />
+                      <CheckCircle className="w-5 h-5 text-accent-500 mr-2 flex-shrink-0 mt-0.5" />
                       <span>Performance Analytics</span>
                     </li>
                   </ul>
@@ -391,23 +391,23 @@ const ServicesPage = () => {
                   <h3 className="text-lg font-semibold mb-2">Business Benefits</h3>
                   <ul className="space-y-2">
                     <li className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-accent-500 mr-2 flex-shrink-0 mt-0.5" />
+                      <CheckCircle className="w-5 h-5 text-primary-500 mr-2 flex-shrink-0 mt-0.5" />
                       <span>Operational Efficiency</span>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-accent-500 mr-2 flex-shrink-0 mt-0.5" />
+                      <CheckCircle className="w-5 h-5 text-primary-500 mr-2 flex-shrink-0 mt-0.5" />
                       <span>Cost Reduction</span>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-accent-500 mr-2 flex-shrink-0 mt-0.5" />
+                      <CheckCircle className="w-5 h-5 text-primary-500 mr-2 flex-shrink-0 mt-0.5" />
                       <span>Improved Accuracy</span>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-accent-500 mr-2 flex-shrink-0 mt-0.5" />
+                      <CheckCircle className="w-5 h-5 text-primary-500 mr-2 flex-shrink-0 mt-0.5" />
                       <span>Faster Processing</span>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-accent-500 mr-2 flex-shrink-0 mt-0.5" />
+                      <CheckCircle className="w-5 h-5 text-primary-500 mr-2 flex-shrink-0 mt-0.5" />
                       <span>Better Compliance</span>
                     </li>
                   </ul>
