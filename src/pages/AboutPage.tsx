@@ -14,7 +14,7 @@ const AboutPage = () => {
   return (
     <>
       {/* Hero Section */}
-      <section className="pt-32 pb-16 md:pt-40 md:pb-24 bg-primary-900 text-white">
+      <section className="pt-32 pb-16 md:pt-40 md:pb-24 bg-secondary-900 text-white">
         <div className="container-custom">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -274,7 +274,7 @@ const AboutPage = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-primary-900 text-white">
+      <section className="py-16 bg-primary-600 text-white">
         <div className="container-custom text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -284,10 +284,10 @@ const AboutPage = () => {
             className="max-w-3xl mx-auto"
           >
             <h2 className="text-white mb-6">Ready to Work With Us?</h2>
-            <p className="text-secondary-200 text-lg mb-8">
+            <p className="text-primary-100 text-lg mb-8">
               Schedule your free consultation today and discover how our AI expertise can transform your business.
             </p>
-            <Link to="/#consultation" className="btn bg-white text-primary-900 hover:bg-secondary-200">
+            <Link to="/#consultation" className="btn bg-white text-primary-600 hover:bg-primary-50">
               Get Started
             </Link>
           </motion.div>
